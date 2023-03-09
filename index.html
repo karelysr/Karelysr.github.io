@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio Karelys</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum" />
+    <meta name="author" content="Karelsy Rangel" />
+
+    <link rel="shortcut icon" href="img/logo-web.png" type="image/x-icon" />
+
+    <!--Fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!--Estilos-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.2.1-web/">
+    <script src="https://kit.fontawesome.com/d2309f728a.js" crossorigin="anonymous"></script>
+
+
+    
+</head>
+
+</head>
+<body>
+<!-- Inicio del Loader -->
+    <div id="contenedor_loader">
+        <div id="loader"></div>
+    </div>
+
+<!-- Inicio del header -->
+<header>
+    <div class="container menu-responsive">
+        <div><a class="logo" href="index.html"> K</a></div>
+        <button class="abrir-menu" id ="abrir"><i class="fas fa-bars"></i></button>
+        <nav>
+            <button class="cerrar-menu" id ="cerrar"><i class="fas fa-times"></i></button>
+            <ul class="navList">
+                <li><a href="#sobreMi" onclick="seleccionar(this)">Sobre Mi</a></li>
+                <li><a href="#conocimientos" onclick="seleccionar(this)">Conocimientos</a></li>
+                <li><a href="#experiencia" onclick="seleccionar(this)">Experiencia</a></li>
+                <li><a href="#contacto " onclick="seleccionar(this)">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>                
+</header>
+<!-- fin del header -->
+
+
+<section id="sobreMi" class="sobreMi">
+    <div class="container">
+        <div class="quienSoy">
+            <div class="fotoPerfil">
+                <img src = "img/foto-perfil.png" id="foto-perfil" alt="Foto prueba"></img>    
+            </div>
+            <h1 >Karelys Rangel</h1>
+            <h2 class="centrado"> Sobre Mi</h2>
+            <p>Estudiante de Ingeniería de Sistemas con manejo en el área. 
+                Responsable, proactiva, prolija y dinámica. Con capacidad de
+                liderazgo y adaptación siempre dispuesta a aprender y
+                alcanzar objetivos. Habilidad para comunicar ideas y escuchar
+                sugerencias en grupos de trabajo.
+            </p>
+            <a href="KarelysRangel_CV.pdf" download="Karelys Rangel CV"><i class="fa fa-arrow-down"></i> Descargar CV</a>
+        </div>											
+    </div>
+</section>
+
+<section id="conocimientos" class="conocimiento">
+    <div class="container"> 
+        <div class="titulo-conocimiento">
+            <h2 class="centrado">Conocimientos </h2>
+        </div>
+
+       <div class="progreso">
+        <div class="skillbar clearfix " porcentajes="70%">
+            <div class="skillbarTitulo" style="background: #663366;"><span>HTML</span></div>
+            <div class="skillbar-bar" ></div>
+            <div class="porcentaje">70%</div>
+        </div>
+
+        <div class="skillbar clearfix " porcentajes="70%">
+            <div class="skillbarTitulo" style="background: #b83564;"><span>CCS</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="porcentaje">70%</div>
+        </div>
+
+        <div class="skillbar clearfix " porcentajes="45%">
+            <div class="skillbarTitulo" style="background: #fb3939;"><span>JV</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="porcentaje">45%</div>
+        </div>
+
+        <div class="skillbar clearfix " porcentajes="49%">
+            <div class="skillbarTitulo" style="background: #7a50f7;"><span>C/C++</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="porcentaje">49%</div>
+        </div>
+        <div class="skillbar clearfix " porcentajes="80%">
+            <div class="skillbarTitulo" style="background: #1c8080;"><span>CRM</span></div>
+            <div class="skillbar-bar" ></div>
+            <div class="porcentaje">80%</div>
+        </div>
+
+        <div class="skillbar clearfix " porcentajes="70%">
+            <div class="skillbarTitulo" style="background: #ffb350;"><span>SAP</span></div>
+            <div class="skillbar-bar" ></div>
+            <div class="porcentaje">70%</div>
+        </div>
+
+        <div class="skillbar clearfix " porcentajes="90%">
+            <div class="skillbarTitulo" style="background: #f65151;"><span>Office</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="porcentaje">90%</div>
+        </div>
+
+       </div> 
+        
+    </div>
+
+</section>
+
+<section id="experiencia" class="experiencia">
+    <div class = "container">
+        <div class = "titulo-exp">
+            <h2 class= "centrado">Experencia</h2>
+        </div>            
+        <div class = "lineaTiempo">
+            <ul>
+                <li>
+                    <div class = "contenido">
+                        <h3>CocaCola Femsa</h3>
+                        <h6>Contact Center</h6>
+                        <div class="parrafoExp">
+                            <p>Atención al cliente, gestión de reclamos, asesoramiento técnico, toma y derivación de pedidos. Manejo de SAP y CRM.</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h4>Actualidad</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class = "contenido">
+                        <h3>CocaCola Femsa</h3>
+                        <h6>Soporte Tecnico</h6>
+                        <div class="parrafoExp">
+                            <p>Soporte de equipos móviles. Control y manejo de stock de equipos y accesorio. Manejo de aplicación de movilización.</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h4>2019 - 2020</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class = "contenido">
+                        <h3>AccessSystems</h3>
+                        <h6>Asistente de Servicios</h6>
+                        <div class="parrafoExp">
+                            <p>Actualización de clientes en CRM. Coordinación de servicios técnicos. Creación de informes. Atención al público.</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h4>2018 - 2019</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+</section>
+
+<!-- Inicio Footer -->
+<footer id="contacto">
+    <div class="container">
+        <div class="titulo-footer">
+            <h2 class="centrado">Contacto </h2>
+        </div>
+    
+        <div class="container-footer">
+            <div class="row central">
+                <div class="datos-personales">
+                    <ul class="link-datos">
+                        <li><a href="#"><i class="fa fa-google"></i> rangelkarelys@gmail.com</a></li>
+                        <li><a href="#"><i class="fab fa-whatsapp"></i> +58 1123456789</a></li>
+                        <li><a href="#"><i class="fa fa-map-marker-alt"></i> Buenos Aires, CABA</a></li>
+                    </ul>
+                </div>
+    
+                <div class="link-social">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>                        
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="formulario">
+
+                    <form action="" method="#">
+                        <input type="text" name="nombre" accept ="required"><label>Nombre</label></input>
+                        <input type="text" name="asunto"><label>Asunto</label></input>
+                        <input type="email" name="email"><label>Email</label></input>
+                        <textarea name="mensaje" rows="6" placeholder="Mensaje"></textarea>
+                    </form>
+                    <button type="submit" class="btn"  id="btn">
+                    <p id="btnText"> Enviar
+                    <i class="fa fa-send"> </i></p>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="copyRight">
+        <i class="fa fa-copyright"></i> Copyright 2023 By Karelys Rangel 
+    </div>    
+</footer>
+
+
+
+
+<!-- Inicio Scrpit -->
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="js/main.js"></script>
+
+<!--Fin Scrpit -->
+
+
+</body>
+</html>
